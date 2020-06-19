@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\FrameCode">
+      <UniqueIdentifier>{67864963-6d12-45d8-b0b7-0d6a9d9a6764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FrameCode">
+      <UniqueIdentifier>{66141e32-3c52-4db9-a5cc-4c22a8b5594b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\FrameCode\FFMpeg">
+      <UniqueIdentifier>{4110a9a1-2637-4502-ba39-f7b5707484ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FrameCode\FFMpeg">
+      <UniqueIdentifier>{17745c4e-e4bb-4428-a5d2-a2f70f220d27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\ffcodec.h">
+      <Filter>头文件\FrameCode\FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\ffdecoder.h">
+      <Filter>头文件\FrameCode\FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\ffencoder.h">
+      <Filter>头文件\FrameCode\FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\ffheader.h">
+      <Filter>头文件\FrameCode\FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\fflog.h">
+      <Filter>头文件\FrameCode\FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\ffparam.h">
+      <Filter>头文件\FrameCode\FFMpeg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertVideoToH264.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\ffcodec.cpp">
+      <Filter>源文件\FrameCode\FFMpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\ffdecoder.cpp">
+      <Filter>源文件\FrameCode\FFMpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\ffencoder.cpp">
+      <Filter>源文件\FrameCode\FFMpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NicoIntelliEyePlatform\FrameCode\FFMpeg\fflog.cpp">
+      <Filter>源文件\FrameCode\FFMpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
